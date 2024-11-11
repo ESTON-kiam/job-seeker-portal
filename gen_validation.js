@@ -1,7 +1,6 @@
 function validateEmail(email)
 {
-// a very simple email validation checking. 
-// you can add more complex email checking if it helps 
+
     var splitted = email.match("^(.+)@(.+)$");
     if(splitted == null) return false;
     if(splitted[1] != null )
@@ -22,10 +21,7 @@ function validateEmail(email)
 return false;
 }
 
-/* function validateData 
-*  Checks each field in a form 
-*  Called from validateForm function 
-*/ 
+
 function validateData(strValidateStr,objValue,strError) 
 { 
     var epos = strValidateStr.search("="); 
@@ -51,12 +47,12 @@ function validateData(strValidateStr,objValue,strError)
               if(!strError || strError.length ==0) 
               { 
                 strError = objValue.name + " : Required Field"; 
-              }//if 
+              } 
               alert(strError); 
               return false; 
-           }//if 
+           }
            break;             
-         }//case required 
+         }
         case "maxlength": 
         case "maxlen": 
           { 
