@@ -1,11 +1,11 @@
-        <!-- Right column -->
+       
         <script src="SpryAssets/SpryValidationTextField.js" type="text/javascript"></script>
         <link href="SpryAssets/SpryValidationTextField.css" rel="stylesheet" type="text/css">
         <div id="col" class="noprint">
           <center>
           <div id="col-in">
 
-<!-- About Me -->
+
 <h3>
   <center>Contact Us</center>
 </h3>
@@ -17,14 +17,14 @@
   <p>982348094</p>
   <p>jobportal.com<br />
   </p>
-  <p><b>Bangalore, India</b></p>
+  <p><b>Nairobi,Kenya</b></p>
 
 
-</div> <!-- /about-me -->
+</div> 
 
 <hr class="noscreen" />
 
-<!-- Category -->
+
 <center><h3>Login</h3></center>
 
 <div class="login">
@@ -82,22 +82,21 @@
 
 <hr class="noscreen" />
 
-<!-- Archive -->
+
 
 
 <hr class="noscreen" />
 
-<!-- Links -->
+
 
 <hr class="noscreen" />
 </div>
           </center>
-          <!-- /col-in -->
-        </div> <!-- /col -->
+          
+        </div> 
         <script type="text/javascript">
-          <!--
+          
           var sprytextfield1 = new Spry.Widget.ValidationTextField("sprytextfield1");
           var sprytextfield2 = new Spry.Widget.ValidationTextField("sprytextfield2");
-          //
-          -->
+          
         </script>

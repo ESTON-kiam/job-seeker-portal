@@ -1,4 +1,4 @@
-<!-- Main menu (tabs) -->
+
      <div id="tabs" class="noprint">
 
             <h3 class="noscreen">Navigation</h3>
@@ -12,4 +12,4 @@
             </ul>
 
         <hr class="noscreen" />
-     </div> <!-- /tabs -->
+     </div> 

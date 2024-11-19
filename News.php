@@ -81,15 +81,13 @@ include "menu.php"
 <th bgcolor="#006699" class="style3"><div align="left" class="style9 style5 style2"><strong>News Date</strong></div></th>
 </tr>
 <?php
-// Establish Connection with Database
-$con = mysqli_connect("localhost","root","","sourcecodester_jobportaldb");
-// Select Database
 
-// Specify the query to execute
+$con = mysqli_connect("localhost","root","","sourcecodester_jobportaldb");
+
 $sql = "select * from news_master";
-// Execute query
+
 $result = mysqli_query($con,$sql) or die( mysqli_error($con));
-// Loop through each records 
+
 while($row = mysqli_fetch_array($result))
 {
 $News=$row['News'];
@@ -103,12 +101,12 @@ $NewsDate=$row['NewsDate'];
 </tr>
 <?php
 }
-// Retrieve Number of records returned
+
 $records = mysqli_num_rows($result);
 ?>
 
 <?php
-// Close the connection
+
 mysqli_close($con);
 ?>
 </table>

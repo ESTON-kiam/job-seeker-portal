@@ -31,33 +31,33 @@
 <SCRIPT language="JavaScript1.2">
 var arrFormValidation=
              [
-			 		[//Name
+			 		[
 						  ["minlen=1",
 		"Please Enter Name "
 						  ] 
 					
                      ],
-                   [//Address
+                   [
 						   ["minlen=1",
 		"Please Enter Address "
 						  ] 
 						  
                    ],
-                   [//Country
+                   [
 						 
 						 
 					  
 						  				
                    ],
-				   [//State
+				   [
 						  
 						  
                    ],
-				   [//City
+				   [
 						  
 						  
                    ],
-				   [//Mobile
+				   [
 						  
 						  ["num",
 		"Please Enter valid Mobile "
@@ -89,20 +89,20 @@ var arrFormValidation=
 						  ]
 						  
                    ],
-				   [//UserName
+				   [
 						  
 					 ["minlen=1",
 		"Please Enter UserName "
 						  ]	
                    ],
-				   [//Password
+				   [
 						  
 						 ["minlen=1",
 		"Please Enter Password "
 						  ] 
 						  
                    ],
-				   [//Confirm
+				   [
 						  
 						   ["minlen=1",
 		"Please Enter Confirm Password "

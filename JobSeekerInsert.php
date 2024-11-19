@@ -27,22 +27,15 @@
 	{
 		$Qualification=$_POST['txtOther'];
 	}
-	//   move_uploaded_file($_FILES["txtFile"]["tmp_name"],"upload/"  .$_FILES["txtFile"]["name"]);
-	// Establish Connection with MYSQL
+	
 	$con = mysqli_connect ("localhost","root","","sourcecodester_jobportaldb");
-	// Select Database	mysql_select_db("sourcecodester_jobportaldb", $con);
-	// Specify the query to Insert Record
-//	$sql = "insert into jobSeeker_reg(JobSeekerName,Address,City,Email,Mobile,Qualification,Gender,BirthDate,Resume,Status,UserName,Password,Question,Answer) values(
-//'".$Name."','".$Address."','".$City."','".$Email."',".$Mobile.",'".$Qualification."','".$Gender."',
-//'".$BirthDate."','".$path1."','".$Status."','".$UserName."','".$Password."','".$Question."','".$Answer."')";
+
 
 $sql="insert into jobseeker_reg(JobSeekerName,Address,City,Email,Mobile,Qualification,Gender,BirthDate,Status,UserName,Password,Question,Answer) VALUES (
 '$Name','$Address','$City','$Email','$Mobile','$Qualification','$Gender','$BirthDate','$Status','$UserName','$Password','$Question','$Answer'
 
 )";
-	// execute query
-
-// var_dump($sql);
+	
 	if(mysqli_query ($con,$sql)){
 
 
@@ -53,7 +46,7 @@ $sql="insert into jobseeker_reg(JobSeekerName,Address,City,Email,Mobile,Qualific
 
 mysqli_close ($con);
 
-	// Close The Connection
+	
 
 
 ?>
